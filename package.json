@@ -1,9 +1,9 @@
 {
-  "name": "react-router-redirector",
+  "name": "react-router-redirect",
   "version": "1.0.0",
   "description": "Push and replace routes anywhere",
   "main": "dist/main.js",
-  "repository": "https://github.com/shalkam/react-router-redirector",
+  "repository": "https://github.com/shalkam/react-router-redirect",
   "author": "Mostafa Sholkamy",
   "license": "MIT",
   "scripts": {

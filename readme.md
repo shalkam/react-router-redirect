@@ -3,7 +3,7 @@
 # Installation
 
 ```
-yarn add react-router-redirector or npm install react-router-redirector --save
+yarn add react-router-redirect or npm install react-router-redirect --save
 ```
 
 # Setup
@@ -11,7 +11,7 @@ yarn add react-router-redirector or npm install react-router-redirector --save
 1. Include the `<Redirector />` component anywhere in your app below the `<Router>` component from `react-router`.
 
 ```
-import {Redirector} from 'react-router-redirector';
+import {Redirector} from 'react-router-redirect';
 
 const App = () =>(
     <Router>
@@ -29,7 +29,7 @@ const App = () =>(
 
 ### Inside a React component
 ```
-import {push} from 'react-router-redirector';
+import {push} from 'react-router-redirect';
 
 class TestComponent extends React.Component {
   onClick = () => {
@@ -44,7 +44,7 @@ class TestComponent extends React.Component {
 ### Inside a saga or side effect
 
 ```
-import { push } from 'react-router-redirector'; // or import replace, go, goForward, goBack
+import { push } from 'react-router-redirect'; // or import replace, go, goForward, goBack
 import client from 'client';
 import clientLoginMutation from 'gql/mutations/clientLogin';
 
@@ -67,7 +67,7 @@ export default sagas;
 ### Or even in React's javascript outer space
 
 ```
-import {replace} from 'react-router-redirector';
+import {replace} from 'react-router-redirect';
 
 push("/")
 class TestComponent extends React.Component {
