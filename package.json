@@ -1,0 +1,26 @@
+{
+  "name": "react-router-redirector",
+  "version": "1.0.0",
+  "description": "Push and replace routes anywhere",
+  "main": "dist/main.js",
+  "repository": "https://github.com/shalkam/react-router-redirector",
+  "author": "Mostafa Sholkamy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --watch src --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "pubsub-js": "^1.6.0",
+    "webpack": "^4.13.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-router-dom": "^4.3.1"
+  }
+}
